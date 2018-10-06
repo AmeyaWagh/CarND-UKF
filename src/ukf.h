@@ -102,6 +102,11 @@ public:
    * @param meas_package The measurement at k+1
    */
   void UpdateRadar(MeasurementPackage meas_package);
+
+
+  void updateMeanCovar(MatrixXd K,
+                       VectorXd z_diff,
+                       MatrixXd S);
 };
 
 #endif /* UKF_H */

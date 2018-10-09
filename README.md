@@ -8,6 +8,8 @@ Self-Driving Car Engineer Nanodegree Program
 
 [youtube link](https://youtu.be/hdOKmDShHHA)
 
+Implementation of Unscented Kalman filter for estimating position and velocity by fusing Lidar and Radar data.
+
 ---
 
 
